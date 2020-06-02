@@ -1,39 +1,87 @@
+LINK TO CODEPEN ASSIGNMENT
+https://codepen.io/masondavis2001/pen/qBbBEvZ?editors=1100
+
+
 1. What is Semantic HTML? 
 it is HTML that gives meaning to our content
 2. What is HTML used for? 
 structure of our website
-3. What is an attribute and where do we put it? 
+3. What is an attribute and where do we put it?
+It's added to the start of a tag, modifies them.
 4. What is the h1 tag used for? How many times should I use it on a page?
+It is used for titles, it should only be used once.
 5. Name two tags that have required attributes
+src, img
 6. What do we put in the head of our HTML document? 
+<head>
 7. What is an id? 
+specifies an ID for an html Element
 8. What elements can I add an id to? 
+Javascript, CSS
 9. How many times can I use the same id on a page? 
+Once
 10. What is a class? 
+The class attribute specifies one or more classnames for an element
 11. What elements can I add a class to? 
+<div>
 12. How many times can I use the same class on a page? 
+As many times as needed
 13. How do I get my link to open in a new tab?
+just add a target="_blank" attribute to your links
 14. What is the alt attribute in the image tag used for? 
+specify alternate text for an image
 15. How do I reference an id?
+#id 
 16. What is the difference between a section and a div
+Section defines a section, div defines a division
 17. What is CSS used for? 
+Styling the webpage
 18. How to we select an element? Example - every h2 on the page
+just type h2, then the command
 19. What is the difference between a class and an id? - Give me an example of when I might use each one
+an ID can be used only once, while a class can be used multiple times. ID would be used to specify unique element, likewise for class.
 20. How do we select classes in CSS?
+period, followed by name of class
 21. How do we select a p element with a single class of “human””?
+.human
 22. What is a parent child selector? When would this be useful? 
+match elements that are direct children of certain parent elements. This is useful when you need to save time, automatic selection.
 23. How do you select all links within a div with the class of sidebar?
+div.name
 24. What is a pseudo selector?
+selects elements that are in a specific state.
 25. What do we use the change the spacing between lines?
+line-height
 26. What do we use to change the spacing between letters?
+letter-spacing
 27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+CAPITALS: uppercase, Lowercase: lowercase, Capitalize: capitalize
 28. How do I add a 1px border around my div that is dotted and black?
-29. How do I select everything on the page? 
+border: 1px dotted black
+29. How do I select everything on the page?
+Command+A 
 30. How do I write a comment in CSS?
+Begin with /*, end with */
 31. How do I find out what file I am in, when I am using the command line? 
+use the pwd command
 32. Using the command line - how do I see a list of files/folders in my current folder?
+use the ls command
 33. How do I remove a file via the command line? Why do I have to be careful with this? 
+Use the rm command
 34. Why should I use version control? 
+To track every individual change in your project
 35. How often should I commit to github?
+Often, every 20 minutes or so
 36. What is the command we would use to push our repo up to github? 
+git push -u origin "branch-name"
 37. Walk me through Lambda's git flow.
+1.Create your own version of this repo - Fork
+2.Add your TL as a collaborator
+3.Clone the repo
+4.Create a branch git checkout -b 'firstName-lastName'
+5.Add a file to the project called yourFirstName-yourLastName.txt. This should contain the link to your completed codepen from part 2 as well as the review questions/answers
+6.Run your usual git commands for adding/committing and pushing Be sure to push to your branch!
+7.Create a Pull-Request to submit your work
+8.Use your own student fork as the base (compare across forks, base-fork -> master).
+9.Add your TL as a reviewer on the Pull-Request
+10.TL then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
